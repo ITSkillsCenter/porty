@@ -1,7 +1,7 @@
 import React from 'react'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer/Footer'
-import parallaxWindow from '../components/parallaxWindow'
+import ParallaxWindow from '../components/parallaxWindow'
 
 function About() {
     return (
@@ -29,6 +29,7 @@ function About() {
                         </div>
                     </div>
                     {/* Expecting Parallax from pleasure */}
+                    <ParallaxWindow />
                     
                     {/* Expecting Services From Flames  */}
 

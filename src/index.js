@@ -5,9 +5,18 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import About from './screens/About';
 
+
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <About />
+
+
+    {/* <App /> */}
+
+     <About /> 
+    {/* <Tst /> */}
+
   </React.StrictMode>,
   document.getElementById('root')
 );
