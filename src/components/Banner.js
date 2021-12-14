@@ -1,6 +1,7 @@
 import React from 'react'
+import Nav from './Nav'
 
-export default function Banner( props ) {
+export default function Banner() {
     return (
         <>
             <div className="position-relative">
@@ -13,8 +14,8 @@ export default function Banner( props ) {
                                     <h1 className="tm-site-name">Video Catalog</h1>
                                 </a>
                             </div>
-                            
-                            
+
+                            <Nav />
 
 
                         </div>
@@ -22,7 +23,7 @@ export default function Banner( props ) {
                 </div>
                 <div className="tm-welcome-container tm-fixed-header tm-fixed-header-2">
                     <div className="text-center">
-                        <p className="pt-5 px-3 tm-welcome-text tm-welcome-text-2 mb-1 mt-lg-0 mt-5 text-white mx-auto"> { props.firstLine } .<br /> {props.secondLine} .<br /> {props.thirdLine}.</p>
+                        <p className="pt-5 px-3 tm-welcome-text tm-welcome-text-2 mb-1 mt-lg-0 mt-5 text-white mx-auto"> Another Image BG<br /> It can be fixed<br /> Content will simply slide over.</p>
                     </div>
                 </div>
                 <div id="tm-fixed-header-bg" /> {/* Header image */}

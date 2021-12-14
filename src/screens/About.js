@@ -1,11 +1,15 @@
 import React from 'react'
+import Banner from '../components/Banner'
+import Footer from '../components/Footer/Footer'
+import parallaxWindow from '../components/parallaxWindow'
 
 function About() {
     return (
         <div className="tm-page-wrap mx-auto">
             <div className="position-relative">
                 {/* Expecting banner from isaac */}
-                
+
+                <Banner />
                 
             </div>
             {/* Page content */}
@@ -33,6 +37,7 @@ function About() {
                 </div>
             </main>
             {/* Expecting Footer From jide */}
+            <Footer />
             
         </div>
     )
