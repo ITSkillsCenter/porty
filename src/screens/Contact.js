@@ -188,5 +188,3 @@ https://templatemo.com/tm-552-video-catalog
     </div>
   )
 }
-
-
