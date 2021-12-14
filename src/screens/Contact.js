@@ -92,6 +92,7 @@ https://templatemo.com/tm-552-video-catalog
                     <h2 className="tm-page-title mb-5 tm-text-primary">Testimonials</h2>    
                   </div>                        
 
+
               <ContactForm/>
             </div>
             <div className="parallax-window parallax-window-2" data-parallax="scroll" data-image-src="img/contact-2.jpg" />
@@ -99,6 +100,7 @@ https://templatemo.com/tm-552-video-catalog
               <div className="row">
                 <div className="col-12">
                   <h2 className="tm-page-title mb-5 tm-text-primary">Testimonials</h2>
+
 
                 </div>
               </div>
