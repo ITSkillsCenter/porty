@@ -2,12 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Contact from './screens/Contact';
 import reportWebVitals from './reportWebVitals';
 import Contact from './screens/Contact';
 
+import Contact from './screens/Contact';
+
+import Tst from './Tst';
+
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <Contact />
+
+
+
+
+
+     <App /> 
   
   </React.StrictMode>,
   document.getElementById('root')

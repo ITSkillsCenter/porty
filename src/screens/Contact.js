@@ -1,6 +1,10 @@
+
 import React from "react";
 import Footer from "../components/Footer/Footer";
 import Testimonials from "../components/Testimonials";
+
+
+import ContactForm from '../components/ContactForm'
 
 
 export default function Contact() {
@@ -9,12 +13,17 @@ export default function Contact() {
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Video Catalog</title>
+
       <link rel="stylesheet" href="fontawesome/css/all.min.css" />{" "}
       {/* https://fontawesome.com/ */}
       <link
         href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
         rel="stylesheet"
       />
+
+      <link rel="stylesheet" href="fontawesome/css/all.min.css" /> {/* https://fontawesome.com/ */}
+      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+
       {/* https://fonts.google.com/ */}
       <link rel="stylesheet" href="css/bootstrap.min.css" />
       <link rel="stylesheet" href="css/templatemo-video-catalog.css" />
@@ -31,16 +40,19 @@ https://templatemo.com/tm-552-video-catalog
             <div className="container-fluid position-relative">
               <div className="row">
                 <div className="col-7 col-md-4">
+
                   <a
                     href="index.html"
                     className="tm-bg-black text-center tm-logo-container"
                   >
+
                     <i className="fas fa-video tm-site-logo mb-3" />
                     <h1 className="tm-site-name">Video Catalog</h1>
                   </a>
                 </div>
                 <div className="col-5 col-md-8 ml-auto mr-0">
                   <div className="tm-site-nav">
+
                     <nav
                       className="navbar navbar-expand-lg mr-0 ml-auto"
                       id="tm-main-nav"
@@ -54,39 +66,23 @@ https://templatemo.com/tm-552-video-catalog
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                       >
+
                         <span>
                           <i className="fas fa-bars tm-menu-closed-icon" />
                           <i className="fas fa-times tm-menu-opened-icon" />
                         </span>
                       </button>
-                      <div
-                        className="collapse navbar-collapse tm-nav"
-                        id="navbar-nav"
-                      >
+             <div className="collapse navbar-collapse tm-nav" id="navbar-nav">
                         <ul className="navbar-nav text-uppercase">
                           <li className="nav-item">
-                            <a
-                              className="nav-link tm-nav-link"
-                              href="index.html"
-                            >
-                              Videos
-                            </a>
+                            <a className="nav-link tm-nav-link" href="index.html">Videos</a>
                           </li>
                           <li className="nav-item">
-                            <a
-                              className="nav-link tm-nav-link"
-                              href="about.html"
-                            >
-                              About
-                            </a>
+                            <a className="nav-link tm-nav-link" href="about.html">About</a>
                           </li>
                           <li className="nav-item active">
-                            <a
-                              className="nav-link tm-nav-link"
-                              href="contact.html"
-                            >
-                              Contact <span className="sr-only">(current)</span>
-                            </a>
+                            <a className="nav-link tm-nav-link" href="contact.html">Contact <span className="sr-only">(current)</span></a>
+
                           </li>
                         </ul>
                       </div>
@@ -99,9 +95,11 @@ https://templatemo.com/tm-552-video-catalog
           <div className="tm-welcome-container tm-fixed-header tm-fixed-header-3">
             <div className="text-center">
               <p className="pt-5 px-3 tm-welcome-text tm-welcome-text-2 mb-1 mt-lg-0 mt-5 text-white mx-auto">
+
                 Talk to Us
                 <br />
                 about any question you have
+
               </p>
             </div>
           </div>
@@ -114,6 +112,7 @@ https://templatemo.com/tm-552-video-catalog
               <div className="row mt-3 mb-5 pb-3">
                 <div className="col-12">
                   <div className="mx-auto tm-about-text-container px-3">
+
                     <h2 className="tm-page-title mb-4 tm-text-primary">
                       Contact our team
                     </h2>
@@ -223,6 +222,7 @@ https://templatemo.com/tm-552-video-catalog
                 </div>
               </div>
             </div>
+
             <div
               className="parallax-window parallax-window-2"
               data-parallax="scroll"
@@ -238,4 +238,57 @@ https://templatemo.com/tm-552-video-catalog
       </div>
     </div>
   );
+
+          </div>
+        </main>
+        <div className="container-fluid tm-content-container mx-auto pt-4">
+          {/* Subscribe form and footer links */}
+          <div className="row pt-3">
+            <div className="col-xl-6 col-lg-12 mb-4">
+              <div className="tm-bg-gray p-5 h-100">
+                <h3 className="tm-text-primary mb-3">Do you want to get our latest updates?</h3>
+                <p className="mb-5">Please subscribe our newsletter for upcoming new videos and latest information about our
+                  work. Thank you.</p>
+                <form action method="GET" className="tm-subscribe-form">
+                  <input type="text" name="email" placeholder="Your Email..." required />
+                  <button type="submit" className="btn rounded-0 btn-primary tm-btn-small">Subscribe</button>
+                </form>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
+              <div className="p-5 tm-bg-gray">
+                <h3 className="tm-text-primary mb-4">Quick Links</h3>
+                <ul className="list-unstyled tm-footer-links">
+                  <li><a href="#">Duis bibendum</a></li>
+                  <li><a href="#">Purus non dignissim</a></li>
+                  <li><a href="#">Sapien metus gravida</a></li>
+                  <li><a href="#">Eget consequat</a></li>
+                  <li><a href="#">Praesent eu pulvinar</a></li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
+              <div className="p-5 tm-bg-gray h-100">
+                <h3 className="tm-text-primary mb-4">Our Pages</h3>
+                <ul className="list-unstyled tm-footer-links">
+                  <li><a href="#">Our Videos</a></li>
+                  <li><a href="#">License Terms</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Privacy Policies</a></li>
+                </ul>
+              </div>
+            </div>
+          </div> {/* row */}
+          <footer className="row pt-5">
+            <div className="col-12">
+              <p className="text-right">Copyright 2020 The Video Catalog Company
+                - Designed by <a href="https://templatemo.com" rel="nofollow" target="_parent">TemplateMo</a></p>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  )
+
 }
