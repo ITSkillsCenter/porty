@@ -4,9 +4,13 @@ import './index.css';
 import App from './App';
 import Contact from './screens/Contact';
 import reportWebVitals from './reportWebVitals';
+
+import Contact from './screens/Contact';
+
 import Tst from './Tst';
 
 import Contact from './screens/Contact';
+
 
 ReactDOM.render(
   <React.StrictMode>
