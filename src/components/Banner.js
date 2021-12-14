@@ -1,4 +1,5 @@
 import React from 'react'
+import Nav from './Nav'
 
 export default function Banner( props ) {
     return (
@@ -14,7 +15,7 @@ export default function Banner( props ) {
                                 </a>
                             </div>
                             
-                            
+                            <Nav/>
 
 
                         </div>
