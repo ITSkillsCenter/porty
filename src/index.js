@@ -9,6 +9,7 @@ import Contact from './screens/Contact';
 
 import Tst from './Tst';
 
+import Contact from './screens/Contact';
 
 
 ReactDOM.render(

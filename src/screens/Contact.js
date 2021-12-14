@@ -82,7 +82,6 @@ https://templatemo.com/tm-552-video-catalog
                   </div>
                 </div>
               </div>
-
               <div className="parallax-window parallax-window-2" data-parallax="scroll">
                 <img src="http://localhost:3000/img/contact-2.jpg"/>
                 </div>
