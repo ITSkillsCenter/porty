@@ -1,64 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Testimonials from './components/Testimonials';
+
+import Header from './components/Header.jsx';
+
+
 function App() {
   return (
     <div className="tm-page-wrap mx-auto">
-    <div className="position-relative">
-      <div className="position-absolute tm-site-header">
-        <div className="container-fluid position-relative">
-          <div className="row">
-            <div className="col-7 col-md-4">
-              <a href="index.html" className="tm-bg-black text-center tm-logo-container">
-                <i className="fas fa-video tm-site-logo mb-3" />
-                <h1 className="tm-site-name">Video Catalog</h1>
-              </a>
-            </div>
-            <div className="col-5 col-md-8 ml-auto mr-0">
-              <div className="tm-site-nav">
-                <nav className="navbar navbar-expand-lg mr-0 ml-auto" id="tm-main-nav">
-                  <button className="navbar-toggler tm-bg-black py-2 px-3 mr-0 ml-auto collapsed" type="button" data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span>
-                      <i className="fas fa-bars tm-menu-closed-icon" />
-                      <i className="fas fa-times tm-menu-opened-icon" />
-                    </span>
-                  </button>
-                  <div className="collapse navbar-collapse tm-nav" id="navbar-nav">
-                    <ul className="navbar-nav text-uppercase">
-                      <li className="nav-item active">
-                        <a className="nav-link tm-nav-link" href="#">Videos <span className="sr-only">(current)</span></a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link tm-nav-link" href="about.html">About</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link tm-nav-link" href="contact.html">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="tm-welcome-container text-center text-white">
-        <div className="tm-welcome-container-inner">
-          <p className="tm-welcome-text mb-1 text-white">Video Catalog is brought to you by TemplateMo.</p>
-          <p className="tm-welcome-text mb-5 text-white">This is a full-width video banner.</p>
-          <a href="#content" className="btn tm-btn-animate tm-btn-cta tm-icon-down">
-            <span>Discover</span>
-          </a>
-        </div>
-      </div>
-      <div id="tm-video-container">
-        <video autoPlay muted loop id="tm-video">
-          {/* <source src="video/sunset-timelapse-video.mp4" type="video/mp4"> */}
-          <source src="video/wheat-field.mp4" type="video/mp4" />
-        </video>    
-      </div>
-      <i id="tm-video-control-button" className="fas fa-pause" />
-    </div>
+   <Header/>
     <div className="container-fluid">
       <div id="content" className="mx-auto tm-content-container">
         <main>
@@ -203,6 +154,7 @@ function App() {
             </ul>
           </div>
         </main>
+        <Testimonials/>
         {/* Subscribe form and footer links */}
         <div className="row mt-5 pt-3">
           <div className="col-xl-6 col-lg-12 mb-4">
