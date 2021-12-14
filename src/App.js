@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -203,6 +204,7 @@ function App() {
             </ul>
           </div>
         </main>
+        <Testimonials/>
         {/* Subscribe form and footer links */}
         <div className="row mt-5 pt-3">
           <div className="col-xl-6 col-lg-12 mb-4">
