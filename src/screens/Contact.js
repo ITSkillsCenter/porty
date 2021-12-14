@@ -117,7 +117,9 @@ https://templatemo.com/tm-552-video-catalog
                   </div>  
                 </div>                                      			
               </div>
-              <div className="parallax-window parallax-window-2" data-parallax="scroll" data-image-src="img/contact-2.jpg" />
+              <div className="parallax-window parallax-window-2" data-parallax="scroll">
+                <img src="http://localhost:3000/img/contact-2.jpg"/>
+                </div>
               <div className="mx-auto tm-content-container mt-4 px-3 mb-3">
                 <div className="row">
                   <div className="col-12">
