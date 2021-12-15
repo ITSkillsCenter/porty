@@ -24,6 +24,7 @@ function Footer() {
                       - Designed by <a href="https://templatemo.com" rel="nofollow" target="_parent">TemplateMo</a></p>
                   </div>
                 </footer>
+                </div>
 
   )
 }
