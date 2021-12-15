@@ -29,4 +29,3 @@ function Quicklink() {
 }
 
 export default Quicklink;
-o
