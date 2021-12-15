@@ -5,6 +5,7 @@ import Subscribe from './Subscribe'
 
 
 function Footer() {
+
     return (
         <div>
             <div className="row mt-5 pt-3">
@@ -23,8 +24,8 @@ function Footer() {
                       - Designed by <a href="https://templatemo.com" rel="nofollow" target="_parent">TemplateMo</a></p>
                   </div>
                 </footer>
-        </div>
-    )
+
+  )
 }
 
 export default Footer
