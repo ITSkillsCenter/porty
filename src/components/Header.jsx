@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderNavs from './HeaderNavs'
-import HeaderDiscover from './HeaderDiscover'
+import HeaderDiscover from './Discover'
 import HeaderVideo from './HeaderVideo'
 
 function Header() {

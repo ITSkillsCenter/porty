@@ -4,16 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Contact from './screens/Contact';
+import About from './screens/About';
+
+
+
 
 
 ReactDOM.render(
   <React.StrictMode>
-   
-    <App />
-  
-    
-  
-  
+
+     <Contact /> 
+     {/* <App />  */}
+
   </React.StrictMode>,
   document.getElementById('root')
 );
