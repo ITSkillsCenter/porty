@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer/Footer'
 import ParallaxWindow from '../components/parallaxWindow'
+import Services from '../components/Services'
 
 function About() {
 
@@ -33,8 +34,8 @@ function About() {
                     <ParallaxWindow image="img/about-2.jpg" />
                     
                     {/* Expecting Services From Flames  */}
+                    <Services />
 
-                    
                     {/* Expecting Parallax from pleasure */}
                     <ParallaxWindow image="img/about-3.jpg" />
                     
