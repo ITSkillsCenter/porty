@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 import About from './screens/About';
+
+
 
 
 
@@ -12,6 +15,7 @@ import About from './screens/About';
 ReactDOM.render(
   <React.StrictMode>
      <App /> 
+
 
   </React.StrictMode>,
   document.getElementById('root')
