@@ -12,19 +12,11 @@ import Tst from './Tst';
 
 
 
+
 ReactDOM.render(
   <React.StrictMode>
-<<<<<<< HEAD
-    <About />
-=======
-
-    {/* <App /> */}
-    <Contact />
-
      <App /> 
-    {/* <Tst /> */}
 
->>>>>>> 9a38b2c72c38740894415c59aea98791ddd6820e
   </React.StrictMode>,
   document.getElementById('root')
 );
