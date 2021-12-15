@@ -67,109 +67,111 @@ export default function Contact() {
                 <p className="mb-4">Video Catalog is a free website template for your business. This is 100% free Bootstrap v4.4.1 layout. You can modify and adapt this template for your CMS websites. You can use it for commercial or non-commercial work. If you wish to suport <a rel="nofollow" target="_parent" href="https://templatemo.com" className="tm-text-primary">TemplateMo</a>, please contact us.</p>
               </div>
               <div className="parallax-window parallax-window-2" data-parallax="scroll">
-                <img src="http://localhost:3000/img/contact-2.jpg"/>
-                </div>
+                <img src="http://localhost:3000/img/contact-2.jpg" />
+              </div>
               <div className="mx-auto tm-content-container mt-4 px-3 mb-3">
                 <div className="row">
                   <div className="col-12">
-                    <h2 className="tm-page-title mb-5 tm-text-primary">Testimonials</h2>    
-                  </div>                        
+                    <h2 className="tm-page-title mb-5 tm-text-primary">Testimonials</h2>
+                  </div>
 
-              <ContactForm />
+                  <ContactForm />
+                </div>
+                <div className="parallax-window parallax-window-2" data-parallax="scroll" data-image-src="img/contact-2.jpg" />
+                <div className="mx-auto tm-content-container mt-4 px-3 mb-3">
+                  <div className="row">
+                    <div className="col-12">
+                      <h2 className="tm-page-title mb-5 tm-text-primary">Testimonials</h2>
+
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-lg-6 mb-5 pt-3">
+                      <div className="media tm-testimonial">
+                        <img className="mr-4 rounded-circle img-fluid" src="img/testimonial-1.jpg" alt="Generic placeholder image" />
+                        <p className="media-body pt-3 tm-testimonial-text">
+                          Vestibulum non lectus id lacus aliquet porttitor in non nulla. Aenean urna diam, finibys id lorem nec, feugiat convallis dolor. Integer aliquam, eros eget rutrum iaculis.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 mb-5 pt-3">
+                      <div className="media tm-testimonial">
+                        <img className="mr-4 rounded-circle img-fluid" src="img/testimonial-2.jpg" alt="Generic placeholder image" />
+                        <p className="media-body pt-3 tm-testimonial-text">
+                          Maecenas et libero in eros laoreet finibus sed vitae diam. Etiam consetetur, nunc sed pretium elementum, diam erat fringilla tortor, placerat condimentum.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 mb-5 pt-3">
+                      <div className="media tm-testimonial">
+                        <img className="mr-4 rounded-circle img-fluid" src="img/testimonial-3.png" alt="Generic placeholder image" />
+                        <p className="media-body pt-3 tm-testimonial-text">
+                          Aliquam tristique ut magna sit amet tincidunt. Sed tempor tellus nulla, molestie luctus lectus tincidunt id. Cras duismod leo a urna placerat, vel blandit turpis fermentum.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 mb-5 pt-3">
+                      <div className="media tm-testimonial">
+                        <img className="mr-4 rounded-circle img-fluid" src="img/testimonial-4.png" alt="Generic placeholder image" />
+                        <p className="media-body pt-3 tm-testimonial-text">
+                          Nulla suscipit posuere lectus ut venenatis. Proin sed orci eget tellus euismod vulputate eu eu arcu. Etiam a bibendum lorem. Cura
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="container-fluid tm-content-container mx-auto pt-4">
+                {/* Subscribe form and footer links */}
+                <div className="row pt-3">
+                  <div className="col-xl-6 col-lg-12 mb-4">
+                    <div className="tm-bg-gray p-5 h-100">
+                      <h3 className="tm-text-primary mb-3">Do you want to get our latest updates?</h3>
+                      <p className="mb-5">Please subscribe our newsletter for upcoming new videos and latest information about our
+                        work. Thank you.</p>
+                      <form action method="GET" className="tm-subscribe-form">
+                        <input type="text" name="email" placeholder="Your Email..." required />
+                        <button type="submit" className="btn rounded-0 btn-primary tm-btn-small">Subscribe</button>
+                      </form>
+                    </div>
+                  </div>
+                  <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
+                    <div className="p-5 tm-bg-gray">
+                      <h3 className="tm-text-primary mb-4">Quick Links</h3>
+                      <ul className="list-unstyled tm-footer-links">
+                        <li><a href="#">Duis bibendum</a></li>
+                        <li><a href="#">Purus ynon dignissim</a></li>
+                        <li><a href="#">Sapien metus gravida</a></li>
+                        <li><a href="#">Eget consequat</a></li>
+                        <li><a href="#">Praesent eu pulvinar</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
+                    <div className="p-5 tm-bg-gray h-100">
+                      <h3 className="tm-text-primary mb-4">Our Pages</h3>
+                      <ul className="list-unstyled tm-footer-links">
+                        <li><a href="#">Our Videos</a></li>
+                        <li><a href="#">License Terms</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policies</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div> {/* row */}
+                <footer className="row pt-5">
+                  <div className="col-12">
+                    <p className="text-right">Copyright 2020 The Video Catalog Company
+                      - Designed by <a href="https://templatemo.com" rel="nofollow" target="_parent">TemplateMo</a></p>
+                  </div>
+                </footer>
+              </div>
             </div>
-            <div className="parallax-window parallax-window-2" data-parallax="scroll" data-image-src="img/contact-2.jpg" />
-            <div className="mx-auto tm-content-container mt-4 px-3 mb-3">
-              <div className="row">
-                <div className="col-12">
-                  <h2 className="tm-page-title mb-5 tm-text-primary">Testimonials</h2>
-
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-6 mb-5 pt-3">
-                  <div className="media tm-testimonial">
-                    <img className="mr-4 rounded-circle img-fluid" src="img/testimonial-1.jpg" alt="Generic placeholder image" />
-                    <p className="media-body pt-3 tm-testimonial-text">
-                      Vestibulum non lectus id lacus aliquet porttitor in non nulla. Aenean urna diam, finibys id lorem nec, feugiat convallis dolor. Integer aliquam, eros eget rutrum iaculis.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6 mb-5 pt-3">
-                  <div className="media tm-testimonial">
-                    <img className="mr-4 rounded-circle img-fluid" src="img/testimonial-2.jpg" alt="Generic placeholder image" />
-                    <p className="media-body pt-3 tm-testimonial-text">
-                      Maecenas et libero in eros laoreet finibus sed vitae diam. Etiam consetetur, nunc sed pretium elementum, diam erat fringilla tortor, placerat condimentum.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6 mb-5 pt-3">
-                  <div className="media tm-testimonial">
-                    <img className="mr-4 rounded-circle img-fluid" src="img/testimonial-3.png" alt="Generic placeholder image" />
-                    <p className="media-body pt-3 tm-testimonial-text">
-                      Aliquam tristique ut magna sit amet tincidunt. Sed tempor tellus nulla, molestie luctus lectus tincidunt id. Cras duismod leo a urna placerat, vel blandit turpis fermentum.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6 mb-5 pt-3">
-                  <div className="media tm-testimonial">
-                    <img className="mr-4 rounded-circle img-fluid" src="img/testimonial-4.png" alt="Generic placeholder image" />
-                    <p className="media-body pt-3 tm-testimonial-text">
-                      Nulla suscipit posuere lectus ut venenatis. Proin sed orci eget tellus euismod vulputate eu eu arcu. Etiam a bibendum lorem. Cura
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="container-fluid tm-content-container mx-auto pt-4">
-            {/* Subscribe form and footer links */}
-            <div className="row pt-3">
-              <div className="col-xl-6 col-lg-12 mb-4">
-                <div className="tm-bg-gray p-5 h-100">
-                  <h3 className="tm-text-primary mb-3">Do you want to get our latest updates?</h3>
-                  <p className="mb-5">Please subscribe our newsletter for upcoming new videos and latest information about our
-                    work. Thank you.</p>
-                  <form action method="GET" className="tm-subscribe-form">
-                    <input type="text" name="email" placeholder="Your Email..." required />
-                    <button type="submit" className="btn rounded-0 btn-primary tm-btn-small">Subscribe</button>
-                  </form>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
-                <div className="p-5 tm-bg-gray">
-                  <h3 className="tm-text-primary mb-4">Quick Links</h3>
-                  <ul className="list-unstyled tm-footer-links">
-                    <li><a href="#">Duis bibendum</a></li>
-                    <li><a href="#">Purus non dignissim</a></li>
-                    <li><a href="#">Sapien metus gravida</a></li>
-                    <li><a href="#">Eget consequat</a></li>
-                    <li><a href="#">Praesent eu pulvinar</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
-                <div className="p-5 tm-bg-gray h-100">
-                  <h3 className="tm-text-primary mb-4">Our Pages</h3>
-                  <ul className="list-unstyled tm-footer-links">
-                    <li><a href="#">Our Videos</a></li>
-                    <li><a href="#">License Terms</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Privacy Policies</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div> {/* row */}
-            <footer className="row pt-5">
-              <div className="col-12">
-                <p className="text-right">Copyright 2020 The Video Catalog Company
-                  - Designed by <a href="https://templatemo.com" rel="nofollow" target="_parent">TemplateMo</a></p>
-              </div>
-            </footer>
           </div>
         </div>
       </div>
     </div>
-  )
+      )
 }

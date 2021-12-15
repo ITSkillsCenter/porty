@@ -4,6 +4,7 @@ import Footer from '../components/Footer/Footer'
 import ParallaxWindow from '../components/parallaxWindow'
 
 function About() {
+
     return (
         <div className="tm-page-wrap mx-auto">
             <div className="position-relative">
@@ -29,11 +30,13 @@ function About() {
                         </div>
                     </div>
                     {/* Expecting Parallax from pleasure */}
-                    <ParallaxWindow />
+                    <ParallaxWindow image="img/about-2.jpg" />
                     
                     {/* Expecting Services From Flames  */}
 
+                    
                     {/* Expecting Parallax from pleasure */}
+                    <ParallaxWindow image="img/about-3.jpg" />
                     
                 </div>
             </main>

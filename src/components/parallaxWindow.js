@@ -1,10 +1,10 @@
 import React from 'react'
 
-function ParallaxWindow(props) {
+function ParallaxWindow({ image }) {
     return (
         <div>
             <div className="parallax-window parallax-window-2" data-parallax="scroll">
-                <img src={props.image}/>
+                <img src={ image }/>
             </div>
         </div>
     )
