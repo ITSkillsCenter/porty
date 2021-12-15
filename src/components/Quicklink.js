@@ -1,7 +1,7 @@
 import React from 'react';
-import Link from 'react'
+import {Link} from 'react-router-dom'
 
-function Quicklink() {
+const  Quicklink = () => {
 	return (
 		<div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
 			<div className="p-5 tm-bg-gray">
@@ -29,4 +29,3 @@ function Quicklink() {
 }
 
 export default Quicklink;
-o
