@@ -6,13 +6,13 @@ export default function Testimonials() {
 
     const testimonial = () =>{
 
-        fetch("http://localhost:8000/api/author")
+        fetch("https://3b7a-129-18-182-91.ngrok.io/api/testimonial")
         .then(res => res.json())
         .then(json => {
             
             console.log(json);
             
-            setDataT(json);
+            setDataT(json.data);
             console.log(json)
         })
     }
@@ -58,9 +58,9 @@ export default function Testimonials() {
         
          {
 
-            data.map((item) =>(
+            dataT.map((item) =>(
                 <TestimonialCard
-                content = {item.content}
+                content = {item.description}
                 img = {item.image}
                 
                 />

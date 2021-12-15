@@ -5,9 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Contact from './screens/Contact';
 
+
 ReactDOM.render(
   <React.StrictMode>
-    <Contact />
+   
+    <App />
+  
+    
+  
   
   </React.StrictMode>,
   document.getElementById('root')
