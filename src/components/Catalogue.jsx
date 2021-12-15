@@ -1,5 +1,6 @@
-import React from "react";
+
 import CatalogueCard from "./CatalogueCard";
+import React, {  useEffect, useState } from "react";
 import Categories from "./Categories";
 
 const Catalogue = () => {
@@ -22,30 +23,24 @@ const Catalogue = () => {
     },
   ];
 
-  const items = [{
-    image:"hello",
-    video:"whatsup",
-    title:"Am coming",
-    description:"Take care",
-  }
-  ]
+  const [card, setCard]  = useState([]);
 
-  // const [data, setData]  = useState([]);
+    const getAllCard = () => {
 
-  //   const getAllCard = () => {
+      fetch('https://3b7a-129-18-182-91.ngrok.io/api/catalogue')
+      .then( response => response.json(
+        console.log('hello',response)
+      ))
+      .then(json => {
 
-  //     fetch('http://localhost:8000/api/')
-  //     .then( response => response.json())
-  //     .then(json => {
+          setCard(json);
+      })
 
-  //         setData(json);
-  //     })
+    }
+    useEffect(() => {
+      getAllCard();
 
-  //   }
-  //   useEffect(() => {
-  //     getAllCard();
-
-  //   }, [   ])
+    }, [   ])
 
   return (
     <div class="container-fluid">
@@ -64,13 +59,15 @@ const Catalogue = () => {
               </div>
             </div> 
           </div>
-            {
-              items.map((data)=>(
-                <CatalogueCard {...data}/>
-              ))
-            }
-
+           
         </main>
+       
+     {card.map((catalogue, index) => {
+          return (
+            <CatalogueCard key={index}  {...catalogue} />
+            
+          )
+        })}
       </div>
     </div>
   );
