@@ -4,9 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import About from './screens/About';
+
+
+
+
+
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <App /> 
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );
