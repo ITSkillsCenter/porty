@@ -8,14 +8,10 @@ import About from './screens/About';
 
 
 
+
 ReactDOM.render(
   <React.StrictMode>
-
-
-    {/* <App /> */}
-
-     <About /> 
-    {/* <Tst /> */}
+     <App /> 
 
   </React.StrictMode>,
   document.getElementById('root')
