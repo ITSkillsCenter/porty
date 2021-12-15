@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from './Nav'
-import HeaderCatalog from './HeaderCatalog'
+import HeaderCatalog from './Catalog'
 
 function HeaderNavs() {
     return (
